@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Реснички</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 
 <body>
@@ -101,23 +105,27 @@
                 </div>
                 <button class="view-all-button" onclick="window.location.href='foto.html';">Смотреть все</button>
             </div>
-            <div class="carousel">
-                <div class="review">
-                    <div class="pink-block">
-                        <p class="review-text">"Спасибо большое за прекрасные реснички! Результат превзошел мои ожидания!"</p>
-                        <p class="review-author">- Анна</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="pink-block">
+                            <p class="review-text">"Спасибо большое за прекрасный маникюр! Результат превзошел мои
+                                ожидания!"</p>
+                            <p class="review-author">- Анна</p>
+                        </div>
                     </div>
-                </div>
-                <div class="review">
-                    <div class="pink-block">
-                        <p class="review-text">"Очень довольна своими ресничками! Профессиональный подход и уютная атмосфера!"</p>
-                        <p class="review-author">- Екатерина</p>
+                    <div class="swiper-slide">
+                        <div class="pink-block">
+                            <p class="review-text">"Очень довольна своим маникюром! Профессиональный подход и уютная
+                                атмосфера!"</p>
+                            <p class="review-author">- Екатерина</p>
+                        </div>
                     </div>
-                </div>
-                <div class="review">
-                    <div class="pink-block">
-                        <p class="review-text">"Лучший мастер в городе! Всегда остаюсь довольной результатом!"</p>
-                        <p class="review-author">- Мария</p>
+                    <div class="swiper-slide">
+                        <div class="pink-block">
+                            <p class="review-text">"Лучший мастер в городе! Всегда остаюсь довольной результатом!"</p>
+                            <p class="review-author">- Мария</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,11 +142,10 @@
                     8 (000) - 555 - 66 - 77
                 </div>
             </div>
-
         </div>
-
-
     </div>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="src/js/swipers.js"></script>
+<script src="src/js/functions.js"></script>
 </html>

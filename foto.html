@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <div class="parent">
@@ -44,11 +48,16 @@
                 </li>
             </ul>
         </div>
-        <p>Маникюр</p>
-        <p>Педикюр</p>
-        <p>Реснички</p>
-        <p>Все</p>
-        <div class="parent1">
+        <div class="tabs-controllers">
+            <p class="tabs__title">
+                НАШИ РАБОТЫ
+            </p>
+            <div class="tabs__target" data-target-tab="all">Все</div>
+            <div class="tabs__target" data-target-tab="manicure">Маникюр</div>
+            <div class="tabs__target" data-target-tab="pedicure">Педикюр</div>
+            <div class="tabs__target" data-target-tab="resnichki">Реснички</div>
+        </div>
+        <div class="tabs__item active" data-item-tab="all">
             <img src="images/photo_1.jpg" alt="Image 1">
             <img src="images/photo_2.jpg" alt="Image 2">
             <img src="images/photo_3.jpg" alt="Image 3">
@@ -57,6 +66,24 @@
             <img src="images/photo_6.jpg" alt="Image 6">
             <img src="images/photo_7.jpg" alt="Image 6">
             <img src="images/photo_8.jpg" alt="Image 6">
+            <img src="images/photo_9.jpg" alt="Image 6">
+            <img src="images/photo_10.jpg" alt="Image 6">
+            <img src="images/photo_11.jpg" alt="Image 6">
+            <img src="images/photo_12.jpg" alt="Image 6">
+        </div>
+        <div class="tabs__item" data-item-tab="manicure">
+            <img src="images/photo_1.jpg" alt="Image 1">
+            <img src="images/photo_2.jpg" alt="Image 2">
+            <img src="images/photo_3.jpg" alt="Image 3">
+            <img src="images/photo_4.jpg" alt="Image 4">
+        </div>
+        <div class="tabs__item" data-item-tab="pedicure">
+            <img src="images/photo_5.jpg" alt="Image 5">
+            <img src="images/photo_6.jpg" alt="Image 6">
+            <img src="images/photo_7.jpg" alt="Image 6">
+            <img src="images/photo_8.jpg" alt="Image 6">
+        </div>
+        <div class="tabs__item" data-item-tab="resnichki">
             <img src="images/photo_9.jpg" alt="Image 6">
             <img src="images/photo_10.jpg" alt="Image 6">
             <img src="images/photo_11.jpg" alt="Image 6">
@@ -76,7 +103,8 @@
     </div>
 </div>
 </div>
-
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="src/js/swipers.js"></script>
+<script src="src/js/functions.js"></script>
 </html>
