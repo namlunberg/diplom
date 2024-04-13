@@ -1,24 +1,24 @@
 @font-face {
-	font-family: 'Comfortaa-Regular'; 
-	src: url(/fonts/Comfortaa-Regular.ttf);
+    font-family: 'Comfortaa-Regular';
+    src: url(/fonts/Comfortaa-Regular.ttf);
 }
 
 @font-face {
-	font-family: 'Comfortaa-Bold'; 
-	src: url(/fonts/Comfortaa-Bold.ttf);
+    font-family: 'Comfortaa-Bold';
+    src: url(/fonts/Comfortaa-Bold.ttf);
 }
 
 @font-face {
-	font-family: 'Comfortaa-Light'; 
-	src: url(/fonts/Comfortaa-Light.ttf);
+    font-family: 'Comfortaa-Light';
+    src: url(/fonts/Comfortaa-Light.ttf);
 }
 
 @font-face {
-	font-family: 'AlexBrush'; 
-	src: url(/fonts/AlexBrush-Regular.ttf);
+    font-family: 'AlexBrush';
+    src: url(/fonts/AlexBrush-Regular.ttf);
 }
 
-body{
+body {
     padding: 0;
     margin: 0 auto;
     font-family: Bitter;
@@ -32,11 +32,12 @@ body{
     justify-content: center;
 }
 
-.div1 { 
+.div1 {
     height: 60px;
     margin: 0 auto;
     padding: 0;
 }
+
 .div2 {
     position: relative;
     margin-top: 10px;
@@ -45,45 +46,45 @@ body{
     background-image: url('../../images/headerbg.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     border-radius: 15px;
 }
 
-#header-bigtext{
+#header-bigtext {
     position: absolute;
     font-family: AlexBrush;
     font-size: 5rem;
-    font-weight:bold;
+    font-weight: bold;
     right: 8rem;
-    text-shadow: 0px 5px 11px rgba(0,0,0,0.6);
+    text-shadow: 0px 5px 11px rgba(0, 0, 0, 0.6);
 }
 
-#header-smalltext{
+#header-smalltext {
     position: absolute;
     font-family: AlexBrush;
     font-size: 2.5rem;
-    right: 7rem;    
+    right: 7rem;
     top: 8rem;
-    text-shadow: 0px 5px 11px rgba(0,0,0,0.6);
+    text-shadow: 0px 5px 11px rgba(0, 0, 0, 0.6);
 }
 
-#header-phone{
+#header-phone {
     font-family: Comfortaa-Bold;
     font-size: 1rem;
-    position: absolute; 
+    position: absolute;
     text-transform: uppercase;
     right: 8rem;
     top: 18rem;
 }
 
-.nav{
+.nav {
     display: flex;
     float: right;
     margin: 18px auto 5px;
 }
 
 
-.nav-item{
+.nav-item {
     font-family: Comfortaa-Regular;
     list-style: none;
     font-size: 18px;
@@ -92,32 +93,32 @@ body{
     margin-right: 5px;
 }
 
-#logo{
-    height: 100%; 
-    border-radius: 7px; 
+#logo {
+    height: 100%;
+    border-radius: 7px;
     margin-right: 15px;
 }
 
-#menu{
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-    height: 100%; 
-    float: left; 
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    float: left;
     margin-left: 10px;
     font-family: AlexBrush;
     font-size: 35px;
     font-weight: bold;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: black;
-    text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .div3 {
@@ -127,7 +128,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     height: 71px;
-   font-family: Bitter;
+    font-family: Bitter;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
@@ -146,24 +147,25 @@ a:hover{
     background-color: #fcedf8;
 }
 
-#about{
+#about {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
 }
-#about-text{
+
+#about-text {
     font-family: Bitter;
     font-size: 20px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-   
+
 }
 
-#about-image{
+#about-image {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 50%;
@@ -173,7 +175,7 @@ a:hover{
     background-repeat: no-repeat;
 }
 
-.div6{
+.div6 {
     height: 337px;
     width: 90%;
     margin: 0 auto;
@@ -182,7 +184,7 @@ a:hover{
     justify-content: space-between;
 }
 
-.services{
+.services {
     padding: 5px;
     margin: 0px;
     position: relative;
@@ -193,7 +195,7 @@ a:hover{
     height: 301px;
 }
 
-.service-image-manicure{
+.service-image-manicure {
     position: absolute;
     top: 0;
     left: 0;
@@ -203,8 +205,7 @@ a:hover{
     z-index: 1;
 }
 
-.service-image-pedicure
-{
+.service-image-pedicure {
     position: absolute;
     top: 0;
     left: 0;
@@ -214,7 +215,7 @@ a:hover{
     z-index: 1;
 }
 
-.service-image-cilia{
+.service-image-cilia {
     position: absolute;
     top: 0;
     left: 0;
@@ -224,7 +225,7 @@ a:hover{
     z-index: 1;
 }
 
-.service-text-pedicure{
+.service-text-pedicure {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -232,7 +233,7 @@ a:hover{
     z-index: 0;
 }
 
-.service-text-manicure{
+.service-text-manicure {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -240,7 +241,7 @@ a:hover{
     z-index: 0;
 }
 
-.service-text-cilia{
+.service-text-cilia {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -248,7 +249,7 @@ a:hover{
     z-index: 0;
 }
 
-.services-text{
+.services-text {
     position: absolute;
     text-transform: uppercase;
     writing-mode: vertical-lr;
@@ -261,7 +262,7 @@ a:hover{
     letter-spacing: 3px;
 }
 
-.div7{
+.div7 {
     height: 337px;
     width: 90%;
     margin: auto;
@@ -272,7 +273,7 @@ a:hover{
     margin-bottom: 30px;
 }
 
-.reasons{
+.reasons {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -285,7 +286,7 @@ a:hover{
     margin-left: 35px;
 }
 
-.number{
+.number {
     position: absolute;
     color: #ee98a7;
     top: -40px;
@@ -298,7 +299,7 @@ a:hover{
 
 }
 
-.reason-text{
+.reason-text {
     margin: 20px;
     font-family: Inter;
     font-size: 16px;
@@ -310,7 +311,7 @@ a:hover{
     bottom: 1rem;
 }
 
-.div8{
+.div8 {
     background-color: #e5dbe3;
     height: 221px;
     width: 100%;
@@ -321,7 +322,7 @@ a:hover{
     position: relative;
 }
 
-.footer-text{
+.footer-text {
     position: absolute;
     top: 23px;
     font-family: Bitter;
@@ -332,7 +333,7 @@ a:hover{
     text-align: center;
 }
 
-.footer-phone{
+.footer-phone {
     font-family: Bitter;
     font-size: 15px;
     font-weight: 400;
@@ -345,11 +346,11 @@ a:hover{
     top: 170px;
 }
 
-.footer-images{
+.footer-images {
     height: 60px;
 }
 
-.footer-image{
+.footer-image {
     margin: 15px;
 }
 
@@ -361,9 +362,10 @@ a:hover{
     background-image: url('../../images/photo_fon_manicure.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     border-radius: 15px;
 }
+
 .div112 {
     position: relative;
     margin-top: 10px;
@@ -372,9 +374,10 @@ a:hover{
     background-image: url('../../images/photo_fon_pedicure.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     border-radius: 15px;
 }
+
 .div113 {
     position: relative;
     margin-top: 10px;
@@ -383,10 +386,11 @@ a:hover{
     background-image: url('../../images/photo_fon_resnichki.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     border-radius: 15px;
 }
-#header-title{
+
+#header-title {
     position: static;
     font-family: Comfortaa-Regular;
     margin-left: 120px;
@@ -395,15 +399,16 @@ a:hover{
     font-size: 30px;
     font-weight: 550;
 }
+
 .manicurist-info {
     position: absolute;
     bottom: 20px;
     left: 120px;
-    background-color: rgba(255, 255, 255, 0.4); 
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 15px;
     border-radius: 10px;
-    width: 550px; 
-    height: 250px; 
+    width: 550px;
+    height: 250px;
     top: 60px;
     text-align: justify;
 }
@@ -414,17 +419,18 @@ a:hover{
     font-size: 17px;
     font-style: italic;
     line-height: 1.5;
-    color: #000; 
+    color: #000;
 }
+
 .manicurist-image {
     position: absolute;
-    top: 40px; 
-    right: 160px; 
+    top: 40px;
+    right: 160px;
     text-align: center;
 }
 
 .manicurist-image img {
-    width: 300px; 
+    width: 300px;
     height: 300px;
     border-radius: 5px;
     display: block;
@@ -458,6 +464,7 @@ a:hover{
     align-items: center;
     flex-direction: column;
 }
+
 .service2 {
     width: 362px;
     height: 80px;
@@ -484,7 +491,7 @@ a:hover{
     flex-direction: column;
 }
 
-.service3, .service2, .service p{
+.service3, .service2, .service p {
     font-weight: 550;
     margin: 5px;
     text-transform: uppercase;
@@ -521,8 +528,9 @@ a:hover{
     bottom: 5px;
     left: 100px;
     font-size: 14px;
-    color: rgba(3, 2, 2, 0.4); 
+    color: rgba(3, 2, 2, 0.4);
 }
+
 .div13 {
     margin-top: 20px;
     text-align: center;
@@ -595,6 +603,7 @@ a:hover{
     font-style: italic;
     color: #666666; /* цвет текста автора */
 }
+
 .tabs__item {
     display: none;
 }
@@ -606,8 +615,8 @@ a:hover{
 }
 
 .tabs__item img {
-    width: 300px; 
-    margin-bottom: 20px; 
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 .swiper {
@@ -645,3 +654,115 @@ a:hover{
     line-height: 24px;
     cursor: pointer;
 }
+
+.div114 {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-image: url('../../images/fon_o_nas.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.div115 {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #F2E6E5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div115 ul {
+    font-family: Bitter;
+    font-size: 20px;
+}
+
+#header_bottom {
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    width: 500px;
+}
+
+#header_info {
+    display: flex;
+    justify-content: space-between;
+    font-family: Bitter;
+    font-size: 16px;
+}
+
+.info {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info h5 {
+    margin: 10px;
+    padding: 0;
+}
+
+.info div {
+    text-align: center;
+}
+
+.manicurist-info1 {
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 550px;
+    height: 250px;
+    top: 60px;
+    text-align: justify;
+}
+
+.manicurist-info .manicurist-info1 p {
+    font-family: Bitter;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #000;
+}
+
+.manicurist-image_about {
+    position: absolute;
+    top: 40px;
+    right: 130px;
+    text-align: center;
+}
+
+.manicurist-image_about img {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.parent1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parent1 img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
